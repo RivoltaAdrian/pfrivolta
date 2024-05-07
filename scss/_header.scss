@@ -1,0 +1,60 @@
+@mixin anclas {
+    text-decoration: none;
+    color: $color-azul
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 2px 4px $color-grisoscuro;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px $color-grisoscuro;
+    font-size: 2rem;
+}
+
+.azul {
+    color: $color-azul;
+}
+
+.azuloscuro {
+    color:$color-azuloscuro;
+}
+
+.boton {
+    color: $color-grisclaro;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: $color-azuloscuro;
+
+    &:hover {
+        background-color: $color-azuloscuro;
+        color:$color-blanco;
+        cursor: pointer;
+    }
+}
+
+nav {
+    li {
+        list-style: none;
+        display: inline-block;
+
+        a {
+            @include anclas;
+            margin: 10px;
+            font-size: 1.5rem;
+        }
+    }
+
+    ul li a:hover {
+        color: $color-azuloscuro;
+    }
+}

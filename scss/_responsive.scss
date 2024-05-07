@@ -1,0 +1,60 @@
+/*responsive: */
+/*vista tablet*/
+/*768px hasta 1023px*/
+
+@media(max-width:1023px){
+    header{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    header .boton{
+        display: none;
+    }
+    main{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .BannerContenido p,
+    h2{
+        font-size: 1.5rem;
+    }
+    .Seguros{
+        margin: 5vh;
+        font-size: 2rem;
+    }
+    .Seguros h3,
+    .Seguros p{
+        font-size: unset;
+    }
+    .ContenedorSeguros{
+        grid-template-columns: 1fr ;
+    }
+    .contenedortestimonio{
+        flex-direction: column;
+        
+    }
+    .footerContenido{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/*ajuste para la vista celular*/
+
+
+@media (max-width:768px){
+    .contenedortestimonio{
+        font-size: 1rem;
+        flex-direction: center;
+        grid-template-columns: 3fr 3fr;
+        align-items: center;
+    }
+    .video{
+        align-items: center;
+    }
+  
+    
+    
+}

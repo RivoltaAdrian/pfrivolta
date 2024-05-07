@@ -1,0 +1,77 @@
+.Seguros {
+    text-align: center;
+    margin: 10vh;
+
+    h3 {
+        color:$color-azuloscuro;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 4rem;
+        color: $color-grisoscuro;
+        padding: 10px;
+    }
+}
+
+li {
+    font-size: 4rem;
+    color:$color-grisoscuro;
+    padding: 10px;
+}
+
+.ContenedorSeguros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Seguro {
+    border: 1px solid $color-blanco;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-blanco;
+    border: 1px solid $color-blanco;
+    padding: 20px;
+    box-shadow: 0px 2px 4px $color-azuloscuro;
+    margin: 10px;
+
+    img {
+        max-width: 200%;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    button:hover {
+        background-color: $color-azuloscuro;
+    }
+}
+
+.textoSeguro,
+li {
+    text-align: center;
+    font-size: medium;
+}
+
+main.Seguro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgSeguros {
+    width: 20%;
+    height: auto;
+    padding: 30%;
+}

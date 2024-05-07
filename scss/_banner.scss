@@ -1,0 +1,69 @@
+.Banner {
+    background-image: url(../Multimedia/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(150vh - 350px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BannerContenido {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: $color-azuloscuro;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: -300px;
+    margin-bottom: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .Banner p {
+    color: $color-negro;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: -330px;
+    margin-bottom: 350px;
+  }
+  
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $color-negro;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-azul;
+  }
+  
+  main {
+    margin: 20px;
+    padding: 20px;
+    color: $color-azul;
+    text-transform: uppercase;
+    font-size: 14px;
+    h3 {
+        color:$color-azuloscuro;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+    }
+  }
+  
