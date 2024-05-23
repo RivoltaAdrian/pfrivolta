@@ -83,17 +83,12 @@ nav ul li a:hover {
 
 h2 {
   color: #0552a3;
+  text-transform: uppercase;
   font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-top: -300px;
-  margin-bottom: 200px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
+  text-align: center;
 }
 
-.Banner p {
+.Banner rivolta {
   color: #000000;
   font-size: 3rem;
   text-transform: uppercase;
@@ -102,11 +97,12 @@ h2 {
   margin-bottom: 350px;
 }
 
-p {
+div {
   font-size: 2rem;
   font-weight: bold;
   color: #000000;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 a {
@@ -230,7 +226,7 @@ footer {
   padding: 0 20px;
 }
 
-.footer h4 {
+.footer h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }

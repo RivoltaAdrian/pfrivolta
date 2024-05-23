@@ -19,18 +19,13 @@
   }
   
   h2 {
-    color: $color-azuloscuro;
+    color:$color-azuloscuro;
+    text-transform: uppercase;
     font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: -300px;
-    margin-bottom: 200px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-align: center;
   }
   
-  .Banner p {
+  .Banner rivolta {
     color: $color-negro;
     font-size: 3rem;
     text-transform: uppercase;
@@ -39,11 +34,12 @@
     margin-bottom: 350px;
   }
   
-  p {
+  div {
     font-size: 2rem;
     font-weight: bold;
     color: $color-negro;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   a {
